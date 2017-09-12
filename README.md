@@ -2,7 +2,10 @@
 
 ## console.log in color for NodeJS
 
-usage:
+### installation:
+`npm install alfa-log --save`
+
+### usage:
 place this in each module:
 ```javascript
 const log = require('alfa-log')('myModuleName');
@@ -40,4 +43,5 @@ log.G('bright green message');
 log.M('bright magenta message');
 ```
 test how colors are interpreted by your console: run `node example.js`
+
 ![console](./console.png)
