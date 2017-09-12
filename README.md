@@ -39,5 +39,5 @@ log.C('bright cyan message');
 log.G('bright green message');
 log.M('bright magenta message');
 ```
-test how colors are interpreted by your concole: run `node example.js`
+test how colors are interpreted by your console: run `node example.js`
 ![console](./console.png)
