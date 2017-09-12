@@ -1,14 +1,14 @@
 {
   "name": "alfa-log",
   "version": "1.0.0",
-  "description": "color logging to console",
+  "description": "color logging to console for Node JS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "local"
+    "url": "https://github.com/alfalabs/alfa-log"
   },
   "author": "alfalabs.net",
   "license": "ISC"
