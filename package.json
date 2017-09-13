@@ -1,6 +1,6 @@
 {
   "name": "alfa-log",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "color logging to console for Node JS",
   "main": "index.js",
   "scripts": {

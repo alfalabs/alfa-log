@@ -6,19 +6,19 @@
 `npm install alfa-log --save`
 
 ### usage:
-place this in each module:
+place this in each module to initialise with module name:
 ```javascript
 const log = require('alfa-log')('myModuleName');
 ```
-or
+or, to initialise and display info message:
 ```javascript
 const log = require('alfa-log')('myModuleName', 'info', 'loaded');
 ```
 optional arguments: `require('alfa-log')(moduleName, level, txt, {bright: true});`
  - moduleName -  prefixes each message with text in square brackets
- - level - used in conjunction with txt, to display log message
+ - level - `log|info|warn|error` - used in conjunction with txt, to display log message
  - txt - used in conjunction with level, to display log message
- - options - {bright: true} to make all messages bright
+ - options - `{bright: true}` to make all messages bright
 
 then call log function:
 ```javascript
