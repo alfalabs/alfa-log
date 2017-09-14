@@ -15,10 +15,10 @@ or, to initialise and display info message:
 const log = require('alfa-log')('myModuleName', 'info', 'loaded');
 ```
 optional arguments: `require('alfa-log')(moduleName, level, txt, {bright: true});`
- - `moduleName` - *optinal,*  prefixes each message with text in square brackets
- - `level` = `log|info|warn|error` - *optinal,* used in conjunction with txt, to display log message
- - `txt` - *optinal,* used in conjunction with level, to display log message
- - `options` = `{bright: true}` *optinal,*  to make all messages bright
+ - `moduleName` - *optional,*  prefixes each message with text in square brackets
+ - `level` = `log|info|warn|error` - *optional,* used in conjunction with txt, to display log message
+ - `txt` - *optional,* used in conjunction with level, to display log message
+ - `options` = `{bright: true}` *optional,*  to make all messages bright
 
 then call log function:
 ```javascript
