@@ -1,0 +1,5 @@
+.npmignore
+.vscode
+.jshintrc
+console.png
+example.js

@@ -1,18 +1,4 @@
-/*  alfa-log
-
-usage:
-    var log = require('alfa-log')('myModuleName');
-
-usage 2:
-    var log = require('alfa-log')('myModuleName', 'info', 'module loaded');
-
-    moduleName - name of the module
-    level - log, info, warn, error
-    txt - message
-    options - {bright:true} - add Bright to all colors
-
-    allowed - if null, no restriction; restrict logging to items in the list
-*/
+/*  alfa-log   (C) www.alfalabs.net  github.com/alfalabs/alfa-log  */
 'use strict';
 module.exports = function (moduleName, level, txt, options) {
     
